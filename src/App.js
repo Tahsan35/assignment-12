@@ -7,12 +7,15 @@ import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import Login from './Pages/Login/Login';
 import Footer from './Pages/Shared/Footer';
+import Home from './Pages/Home/Home';
 
 function App() {
   return (
     <div className="bg-white">
       <Navbar />
       <Routes>
+        <Route path='/' element={<Home />} ></Route>
+        <Route path='/home' element={<Home />} ></Route>
         <Route path='/signup' element={<Signup />} ></Route>
         <Route path='/login' element={<Login />} ></Route>
 
