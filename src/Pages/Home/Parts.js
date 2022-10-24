@@ -5,7 +5,7 @@ const Parts = () => {
     const [parts, setParts] = useState([]);
 
     useEffect(() => {
-        fetch('https://sleepy-hollows-57490.herokuapp.com/parts', {
+        fetch('http://localhost:5000/parts', {
             headers: {
                 'authorization': `Bearer ${localStorage.getItem('accessToken')}`
             }
