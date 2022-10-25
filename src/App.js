@@ -8,6 +8,7 @@ import Login from './Pages/Login/Login';
 import Home from './Pages/Home/Home';
 import NotFound from './Pages/Shared/NotFound';
 import Cart from './Pages/DashBoard/Card/Card';
+import MyPortFolio from './Pages/MyPortFolio/MyPortFolio';
 function App() {
   return (
     <div className="bg-white">
@@ -18,6 +19,7 @@ function App() {
         <Route path='/cart' element={<Cart />} ></Route>
         <Route path='/signup' element={<Signup />} ></Route>
         <Route path='/login' element={<Login />} ></Route>
+        <Route path='/portfolio' element={<MyPortFolio />}></Route>
         <Route path='*' element={<NotFound />}></Route>
       </Routes>
       <ToastContainer />
