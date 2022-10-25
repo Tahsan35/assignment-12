@@ -22,9 +22,12 @@
     "react-firebase-hooks": "^5.0.3",
     "react-hook-form": "^7.38.0",
     "react-icons": "^4.6.0",
+    "react-rating": "^2.0.5",
     "react-router-dom": "^6.4.2",
     "react-scripts": "5.0.1",
+    "react-slick": "^0.29.0",
     "react-toastify": "^9.0.8",
+    "slick-carousel": "^1.8.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
