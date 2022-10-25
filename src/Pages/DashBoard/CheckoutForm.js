@@ -138,3 +138,4 @@ const CheckoutForm = ({ purchase }) => {
         </div>
     );
 };
+export default CheckoutForm;
