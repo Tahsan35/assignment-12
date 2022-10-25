@@ -2,9 +2,10 @@ import { faStar } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React, { useEffect, useState } from 'react';
 // import Review from './Review';
+import '../Style/Review.css'
 import Rating from 'react-rating';
-import "~slick-carousel/slick/slick.css";
-import "~slick-carousel/slick/slick-theme.css";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 import Slider from 'react-slick';
 
 
