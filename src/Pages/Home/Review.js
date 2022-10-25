@@ -1,23 +1,9 @@
 import { faStar } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import React, { useState } from 'react';
 import Rating from 'react-rating';
 
 const Review = ({ r }) => {
     const { name, img, review, rating } = r;
-    {/* 
-    const [slideIndex, setSlideIndex] = useState(0);
-    const settings = {
-        infinite: true,
-        speed: 500,
-        slidesToShow: 3,
-        slidesToScroll: 1,
-        autoplay: true,
-        beforeChange: (current, next) => setSlideIndex(next),
-        centerMode: true,
-        autoplaySpeed: 2000
-    };
-*/}
     return (
         <div className=' p-2'>
             <div className='text-center'>
