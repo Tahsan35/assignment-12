@@ -4,10 +4,6 @@ import { useNavigate } from 'react-router-dom';
 import cartHeader from '../../../assets/breadcrumb.jpeg';
 import { MdOutlineDoubleArrow } from 'react-icons/md';
 import { FaTrashAlt } from 'react-icons/fa';
-
-
-
-
 const Card = () => {
     const [count, setCount] = useState(1);
     const navigate = useNavigate();
