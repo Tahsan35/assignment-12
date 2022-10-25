@@ -6,7 +6,6 @@ import Navbar from './Pages/Shared/Navbar';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import Login from './Pages/Login/Login';
-import Footer from './Pages/Shared/Footer';
 import Home from './Pages/Home/Home';
 import NotFound from './Pages/Shared/NotFound';
 
@@ -21,7 +20,6 @@ function App() {
         <Route path='/login' element={<Login />} ></Route>
         <Route path='*' element={<NotFound />}></Route>
       </Routes>
-      <Footer />
       <ToastContainer />
     </div>
   );
